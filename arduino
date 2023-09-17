@@ -1,0 +1,48 @@
+// Pin number for the LED
+const int ledPin = 13;
+
+// Analog pin for the potentiometer
+const int potPin = A0;
+
+// Variable to store the potentiometer value
+int potValue = 0;
+
+// Variable to store the blink delay time
+int delayTime = 0;
+
+// Setup function runs once when the board is powered on or reset
+void setup() {
+  // Initialize the digital pin as an output
+  pinMode(ledPin, OUTPUT);
+  
+  // Initialize the analog pin as an input
+  pinMode(potPin, INPUT);
+  
+  // Initialize serial communication for debugging
+  Serial.begin(9600);
+}
+
+// Loop function runs repeatedly
+void loop() {
+  // Read the potentiometer value
+  potValue = analogRead(potPin);
+  
+  // Map the potentiometer value to a delay time between 100ms and 2000ms
+  delayTime = map(potValue, 0, 1023, 100, 2000);
+  
+  // Print the delay time to the serial monitor for debugging
+  Serial.print("Delay time: ");
+  Serial.println(delayTime);
+  
+  // Turn the LED on
+  digitalWrite(ledPin, HIGH);
+  
+  // Wait for the specified delay time
+  delay(delayTime);
+  
+  // Turn the LED off
+  digitalWrite(ledPin, LOW);
+  
+  // Wait for the specified delay time
+  delay(delayTime);
+}
