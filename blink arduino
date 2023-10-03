@@ -7,6 +7,12 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 }
 
+// Setup function runs once when the board is powered on or reset
+void setup() {
+  // Initialize the digital pin as an output
+  pinMode(ledPin, OUTPUT);
+}
+
 // Loop function runs repeatedly
 void loop() {
   // Turn the LED on
