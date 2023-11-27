@@ -24,6 +24,6 @@ void loop() {
   // Turn the LED off
   digitalWrite(ledPin, LOW);
   
-  // Wait for 100 second
-  delay(100000);
+  // Wait for 1000 second
+  delay(1000000);
 }
