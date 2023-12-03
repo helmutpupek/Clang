@@ -22,6 +22,30 @@ void setup() {
   Serial.begin(9600);
 }
 
+// Pin number for the LED
+const int ledPin = 13;
+
+// Analog pin for the potentiometer
+const int potPin = A0;
+
+// Variable to store the potentiometer value
+int potValue = 0;
+
+// Variable to store the blink delay time
+int delayTime = 0;
+
+// Setup function runs once when the board is powered on or reset
+void setup() {
+  // Initialize the digital pin as an output
+  pinMode(ledPin, OUTPUT);
+  
+  // Initialize the analog pin as an input
+  pinMode(potPin, INPUT);
+  
+  // Initialize serial communication for debugging
+  Serial.begin(9600);
+}
+
 // Loop function runs repeatedly
 void loop() {
   // Read the potentiometer value
