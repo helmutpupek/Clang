@@ -86,15 +86,5 @@ void loop() {
 // more function come
 
 // more function come
-
-  // Wait for the specified delay time
-  delay(delayTime);
-  
-  // Turn the LED off
-  digitalWrite(ledPin, LOW);
-  
-  // Wait for the specified delay time
-  delay(delayTime);
-}
-
-// more function come
+//
+//
