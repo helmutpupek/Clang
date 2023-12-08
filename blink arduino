@@ -50,12 +50,5 @@ void loop() {
   // Turn the LED off
   digitalWrite(ledPin, LOW);
   
-  // Wait for 1000 second
-  delay(1000000);
-}
 
-// Loop function runs repeatedly
-void loop() {
-  // Turn the LED on
-  digitalWrite(ledPin, HIGH);
 
