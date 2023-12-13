@@ -97,3 +97,6 @@ void setup() {
   
   // Initialize serial communication for debugging
   Serial.begin(9600);
+
+  // Initialize serial communication for debugging
+  Serial.begin(9600);
