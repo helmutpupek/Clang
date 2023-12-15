@@ -112,3 +112,40 @@ void setup() {
   // Initialize serial communication for debugging
   Serial.begin(9600);
 }
+
+// Setup function runs once when the board is powered on or reset
+void setup() {
+  // Initialize the digital pin as an output
+  pinMode(ledPin, OUTPUT);
+  
+  // Initialize the analog pin as an input
+  pinMode(potPin, INPUT);
+  
+  // Initialize serial communication for debugging
+  Serial.begin(9600);
+
+// Setup function runs once when the board is powered on or reset
+void setup() {
+  // Initialize the digital pin as an output
+  pinMode(ledPin, OUTPUT);
+  
+  // Initialize the analog pin as an input
+  pinMode(potPin, INPUT);
+  
+  // Initialize serial communication for debugging
+  Serial.begin(9600);
+
+  // Initialize serial communication for debugging
+  Serial.begin(9600);
+
+// Setup function runs once when the board is powered on or reset
+void setup() {
+  // Initialize the digital pin as an output
+  pinMode(ledPin, OUTPUT);
+  
+  // Initialize the analog pin as an input
+  pinMode(potPin, INPUT);
+  
+  // Initialize serial communication for debugging
+  Serial.begin(9600);
+}
