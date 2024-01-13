@@ -238,7 +238,6 @@ void setup() {
 }
 
 /*****************************/
-/*****************************/
 
 // Setup function runs once when the board is powered on or reset
 void setup() {
