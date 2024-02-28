@@ -143,3 +143,13 @@ void loop() {
   digitalWrite(ledPin, LOW);
 
 /* HELLO KITTY **/
+
+// Loop function runs repeatedly
+void loop() {
+  // Turn the LED on
+  digitalWrite(ledPin, HIGH);
+    
+  // Turn the LED off
+  digitalWrite(ledPin, LOW);
+
+/* HELLO KITTY **/
