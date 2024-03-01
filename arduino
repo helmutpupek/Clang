@@ -273,12 +273,6 @@ void setup() {
 }
 /*****************************/
 
-8456551****//
-
-/*****************************/
-
-}
-
   // Initialize the analog pin as an input
   pinMode(potPin, INPUT);
 }
