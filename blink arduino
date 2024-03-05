@@ -148,11 +148,6 @@ void loop() {
 // Loop function runs repeatedly
 void loop() {
   // Turn the LED on
-/* HELLO KITTY **/
-
-// Loop function runs repeatedly
-void loop() {
-  // Turn the LED on
   digitalWrite(ledPin, HIGH);
     
   // Turn the LED off
