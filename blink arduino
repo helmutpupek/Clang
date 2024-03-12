@@ -152,4 +152,9 @@ void loop() {
 
 
   digitalWrite(ledPin, LOW);
+/* HELLO KITTY **/
 
+
+  digitalWrite(ledPin, LOW);
+
+////////////////////////////////////////////////////////
