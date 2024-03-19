@@ -387,3 +387,20 @@ void setup() {
   // Initialize serial communication for debugging
   Serial.begin(9600);
 
+// Variable to store the potentiometer value
+int potValue = 0;
+
+// Variable to store the blink delay time
+int delayTime = 0;
+
+// Setup function runs once when the board is powered on or reset
+void setup() {
+  // Initialize the digital pin as an output
+  pinMode(ledPin, OUTPUT);
+  
+  // Initialize the analog pin as an input
+  pinMode(potPin, INPUT);
+  
+  // Initialize serial communication for debugging
+  Serial.begin(9600);
+
