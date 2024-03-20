@@ -142,10 +142,6 @@ void setup() {
 }
 
 *********************
-
-  
-  // Initialize the analog pin as an input
-  pinMode(potPin, INPUT);
   
   // Initialize serial communication for debugging
   Serial.begin(9600);
