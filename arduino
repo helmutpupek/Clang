@@ -284,9 +284,6 @@ void setup() {
 // Setup function runs once when the board is powered on or reset
 /*****************************/
 
-
-
-
 /*****************************************************************/
 // Variable to store the potentiometer value
 int potValue = 0;
