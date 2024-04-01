@@ -28,7 +28,6 @@ void loop() {
   delay(1000000);
 }
 
-
 // Loop function runs repeatedly
 void loop() {
   // Turn the LED on
@@ -135,7 +134,6 @@ void loop() {
 
 /* HELLO KITTY **/
 
-
   digitalWrite(ledPin, LOW);
 
 ////////////////////////////////////////////////////////
@@ -154,11 +152,9 @@ void loop() {
   digitalWrite(ledPin, LOW);
 /* HELLO KITTY **/
 
-
   digitalWrite(ledPin, LOW);
 
 ////////////////////////////////////////////////////////
-
 *********************
 // Loop function runs repeatedly
 void loop() {
