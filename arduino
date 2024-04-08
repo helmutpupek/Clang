@@ -420,4 +420,14 @@ void setup() {
   pinMode(ledPin, OUTPUT);
 
 /************************************************/
+/************************************************/
+
+// Variable to store the blink delay time
+int delayTime = 0;
+
+// Setup function runs once when the board is powered on or reset
+void setup() {
+  // Initialize the digital pin as an output
+  pinMode(ledPin, OUTPUT);
+
 
