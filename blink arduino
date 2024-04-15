@@ -149,9 +149,6 @@ void loop() {
 
 /* HELLO KITTY **/
 
-
-
-
   digitalWrite(ledPin, LOW);
 /* HELLO KITTY **/
 
@@ -168,8 +165,6 @@ void loop() {
   digitalWrite(ledPin, LOW);
 
 /* HELLO KITTY **/
-
-
 
 
   digitalWrite(ledPin, LOW);
