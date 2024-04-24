@@ -426,5 +426,11 @@ int delayTime = 0;
 void setup() {
   // Initialize the digital pin as an output
   pinMode(ledPin, OUTPUT);
+// Variable to store the blink delay time
+int delayTime = 0;
 
+/************************************************/
+/************************************************/
+
+// Variable to store the blink delay time
 
