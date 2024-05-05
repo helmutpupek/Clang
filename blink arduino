@@ -147,6 +147,12 @@ void loop() {
   digitalWrite(ledPin, LOW);
 
 ////////////////////////////////////////////////////////
+  digitalWrite(ledPin, LOW);
+/* HELLO KITTY **/
+
+  digitalWrite(ledPin, LOW);
+
+////////////////////////////////////////////////////////
 *********************
 // Loop function runs repeatedly
 void loop() {
